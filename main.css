@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scrollbar-color: #0817ff;
+    scrollbar-width: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+iframe {
+    width: 90%;
+    height: 70vh;
+}
+
+@media screen and (max-width: 675px) {
+    iframe {
+        width: 90%;
+        height: 70vh;
+    }
+}
